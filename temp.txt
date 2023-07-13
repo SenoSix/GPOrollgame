@@ -1,0 +1,27 @@
+wget https://static.wikia.nocookie.net/grand-piece-online/images/9/9a/Zushi-new-fruit-pngpng.png/revision/latest?cb=20230129125200 -O zushi.png
+wget https://static.wikia.nocookie.net/grand-piece-online/images/d/df/879047288679460904.v3.png/revision/latest?cb=20211027093303 -O gura.v3.png
+wget https://static.wikia.nocookie.net/grand-piece-online/images/6/66/SunaBetterQuality.png/revision/latest?cb=20220704005721 -O SunaBetterQuality.png
+
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/7/7f/819439725621936148.v3.png/revision/latest?cb=20211027094152 -O Ice.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/c/c2/Itopng.v1.png/revision/latest?cb=20230129125549 -O string.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/c/c0/Paw-new-fruit-pngpng.png/revision/latest?cb=20230129125054 -O paw.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/3/35/FlareFlareFruit.png/revision/latest?cb=20201126221308 -O flame.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/8/8a/Magu-new-fruit-pngpng.png/revision/latest?cb=20230129125447 -O magma.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/6/69/PikaPikaNewQuality.png/revision/latest?cb=20220706164626 -O light.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/e/e8/YamiYaminoMiEdit.png/revision/latest?cb=20221106153257 -O dark.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/d/d3/Yuki.png/revision/latest?cb=20221227130525 -O snow.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/1/18/Torirevision.png/revision/latest?cb=20221225102637 -O phoeninx.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Mochi_model_test.png/revision/latest?cb=20220531201714 -O dough.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Ope_Ope_no_mi.png/revision/latest?cb=20230622192745 -O operator.png
+                wget https://static.wikia.nocookie.net/grand-piece-online/images/e/e2/Doku.png/revision/latest?cb=20230303205950 -O venom.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/a/a3/KiloTransparent.png/revision/latest?cb=20211102230159 -O kilo.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/5/55/NewSukeTransparent.png/revision/latest?cb=20221223044059 -O clear.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/3/38/85-A3-E72-F-BAA3-49-ED-AE31-97-E51-A3-ACBC7.png/revision/latest?cb=20211105235916 -O spin.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/e/ed/ChiyuChiyuNoMi.png/revision/latest?cb=20230626062616 -O heal.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/3/37/D792-C975-4047-4107-A1-AE-05-D7-FC78012-C.png/revision/latest?cb=20211028201342 -O barrier.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/c/c6/Bombpng.png/revision/latest?cb=20230129125316 -O bomb.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/6/67/Gomu-actualpng.v4.png/revision/latest?cb=20230129124752 -O rubber.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/6/6c/Download_%281%29.png/revision/latest?cb=20211116221445 -O hollow.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/2/24/819581845749497858.v3.png/revision/latest?cb=20211027093109 -O mero.png
+            wget https://static.wikia.nocookie.net/grand-piece-online/images/2/2e/Yomi2.png/revision/latest?cb=20220528141829 -O rewvive.png
+            wget https://i.imgur.com/8F34VLp.png -O spring.png

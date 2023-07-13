@@ -9,10 +9,12 @@ h1{ color:rgb(255, 255, 255);
     .title{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
     
     button{color:rgb(0, 0, 0);
-    margin-left:35%;
-    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; height: 100px;
     width:400px;
-    font-size:50px;}
+    font-size:50px;
+  border-radius: 10px;}
 
     body{color:rgb(255, 255, 255);background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fgrand-piece-online%2Fimages%2F5%2F54%2FKori_Island.png%2Frevision%2Flatest%3Fcb%3D20201124155114&f=1&nofb=1&ipt=75e061bcd4a325fca2f07033fe7e287b1f00d9677b0e8c2bf607580f5ed362ee&ipo=images);
     background-repeat:no-repeat;
@@ -22,13 +24,14 @@ h1{ color:rgb(255, 255, 255);
 
     hr{color:black}
 
+
     .column {
         float: left;
         width: 20%;
         text-align:center;
         border:solid;color:black;size:1px;
-        border-radius:2px;
-        margin-right:30px;
+        border-radius:10px;
+        margin-right:55px;
         background-color:rgb(19, 56, 90); 
         
       }
@@ -38,7 +41,7 @@ h1{ color:rgb(255, 255, 255);
         clear: both;
       }
 
-ul{text-align:center;list-style-position: inside;color:white}
+ul{text-align:left;list-style-position: inside;color:white}
 p{
   padding-left:20em;
 }
@@ -48,10 +51,20 @@ p{
 }
 
 .colleft{
-  margin-left: 255px;
+  margin-left: 270px;
 }
 .rules{
   text-align:left;
 }
 
-      
+.valuelist{
+  color:black
+}
+.logo{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.rollchance{
+  text-align:center;
+}    

@@ -27,7 +27,7 @@ function roll(){
     if(money>=500){
         money=money-500;
     }
-    if(count==5){
+    if(count==50){
         if(rollChance<=8000&&rollChance>0){
             color="yellow";
             count=1;
@@ -35,47 +35,47 @@ function roll(){
             value=5000;
             if(legendaryFruit==1){
                 Fruit="Gravity";
-                img="https ://static.wikia.nocookie.net/grand-piece-online/images/9/9a/Zushi-new-fruit-pngpng.png/revision/latest?cb=20230129125200";
+                img="images/zushi.png";
             }
             else if(legendaryFruit==2){
                 Fruit="Quake";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/d/df/879047288679460904.v3.png/revision/latest?cb=20211027093303";
+                img="images/guura.v3.png";
             }
             if(legendaryFruit==3){
                 Fruit="Sand";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/6/66/SunaBetterQuality.png/revision/latest?cb=20220704005721";
+                img="images/SunaBetterQuality.png";
             }
             else if(legendaryFruit==4){
                 Fruit="Ice";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/7/7f/819439725621936148.v3.png/revision/latest?cb=20211027094152";
+                img="images/Ice.png";
             }
             else if(legendaryFruit==5){
                 Fruit="String";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/c/c2/Itopng.v1.png/revision/latest?cb=20230129125549";
+                img="images/string.png";
             }
             else if(legendaryFruit==6){
                 Fruit="Paw";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/c/c0/Paw-new-fruit-pngpng.png/revision/latest?cb=20230129125054";
+                img="images/paw.png";
             }
             else if(legendaryFruit==7){
                 Fruit="Flame";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/3/35/FlareFlareFruit.png/revision/latest?cb=20201126221308";
+                img="images/flame.png";
             }
             else if(legendaryFruit==8){
                 Fruit="Magma";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/8/8a/Magu-new-fruit-pngpng.png/revision/latest?cb=20230129125447";
+                img="images/magma.png";
             }
             else if(legendaryFruit==9){
                 Fruit="Light";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/6/69/PikaPikaNewQuality.png/revision/latest?cb=20220706164626";
+                img="images/light.png";
             }
             else if(legendaryFruit==10){
                 Fruit="Dark";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/e/e8/YamiYaminoMiEdit.png/revision/latest?cb=20221106153257";
+                img="images/dark.png";
             }
             else if(legendaryFruit==11){
                 Fruit="Snow";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/d/d3/Yuki.png/revision/latest?cb=20221227130525";
+                img="images/snow.png";
             }
         }
         if(rollChance<=10000&&rollChance>8000){
@@ -85,19 +85,19 @@ function roll(){
             value=7500;
             if(mythicalFruit==1){
                 Fruit="Phoenix";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/1/18/Torirevision.png/revision/latest?cb=20221225102637";
+                img="images/phoeninx.png";
             }
             else if(mythicalFruit==2){
                 Fruit="Dough";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Mochi_model_test.png/revision/latest?cb=20220531201714";
+                img="images/dough.png";
             }
             else if(mythicalFruit==3){
                 Fruit="Operator";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Ope_Ope_no_mi.png/revision/latest?cb=20230622192745";
+                img="images/operator.png";
             }
             else if(mythicalFruit==4){
                 Fruit="Venom";
-                img="https://static.wikia.nocookie.net/grand-piece-online/images/e/e2/Doku.png/revision/latest?cb=20230303205950";
+                img="images/venom.png";
             }
          
         }
@@ -108,21 +108,21 @@ function roll(){
         value=100;
         if(commonFruit==1){
             Fruit="Kilo";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/a/a3/KiloTransparent.png/revision/latest?cb=20211102230159";
+            img="images/kilo.png";
             img.height='100px';
             img.width='100px';
         }
         else if(commonFruit==2){
             Fruit="Clear";            
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/5/55/NewSukeTransparent.png/revision/latest?cb=20221223044059";
+            img="images/clear.png";
         }
         else if(commonFruit==3){
             Fruit="Spin";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/3/38/85-A3-E72-F-BAA3-49-ED-AE31-97-E51-A3-ACBC7.png/revision/latest?cb=20211105235916";
+            img="images/spin.png";
         }
         else if(commonFruit==4){
             Fruit="Heal";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/e/ed/ChiyuChiyuNoMi.png/revision/latest?cb=20230626062616";
+            img="images/heal.png";
         }
     }
     else if(rollChance<=8900&&rollChance>6000){
@@ -131,23 +131,23 @@ function roll(){
         value=250;
         if(rareFruit==1){
             Fruit="Barrier";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/3/37/D792-C975-4047-4107-A1-AE-05-D7-FC78012-C.png/revision/latest?cb=20211028201342";
+            img="images/barrier.png";
         }
         else if(rareFruit==2){
             Fruit="Bomb";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/c/c6/Bombpng.png/revision/latest?cb=20230129125316";
+            img="images/bomb.png";
         }
         else if(rareFruit==3){
             Fruit="Rubber";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/6/67/Gomu-actualpng.v4.png/revision/latest?cb=20230129124752";
+            img="images/rubber.png";
         }
         else if(rareFruit==4){
             Fruit="Hollow"
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/6/6c/Download_%281%29.png/revision/latest?cb=20211116221445";
+            img="images/hollow.png";
         }
         else if(rareFruit==5){
             Fruit="Mero";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/2/24/819581845749497858.v3.png/revision/latest?cb=20211027093109";
+            img="images/mero.png";
         }
     }
     else if(rollChance<=9900&&rollChance>8900){
@@ -156,11 +156,11 @@ function roll(){
         value=500;
         if (epicFruit==1){
             Fruit="Revive";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/2/2e/Yomi2.png/revision/latest?cb=20220528141829";
+            img="images/rewvive.png";
         }
         else if (epicFruit==2){
             Fruit="Spring";
-            img="https://i.imgur.com/8F34VLp.png";
+            img="images/spring.png";
         }
     }
     else if(rollChance<=9900&&rollChance>9900){
@@ -170,47 +170,47 @@ function roll(){
         percentage="1%";
         if(legendaryFruit==1){
             Fruit="Gravity";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/9/9a/Zushi-new-fruit-pngpng.png/revision/latest?cb=20230129125200";
+            img="image/zushi.png";
         }
         else if(legendaryFruit==2){
             Fruit="Quake";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/d/df/879047288679460904.v3.png/revision/latest?cb=20211027093303";
+            img="image/guura.v3.png";
         }
         if(legendaryFruit==3){
             Fruit="Sand";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/6/66/SunaBetterQuality.png/revision/latest?cb=20220704005721";
+            img="img/SunaBetterQuality.png";
         }
         else if(legendaryFruit==4){
             Fruit="Ice";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/7/7f/819439725621936148.v3.png/revision/latest?cb=20211027094152";
+            img="images/Ice.png";
         }
         else if(legendaryFruit==5){
             Fruit="String";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/c/c2/Itopng.v1.png/revision/latest?cb=20230129125549";
+            img="images/string.png";
         }
         else if(legendaryFruit==6){
             Fruit="Paw";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/c/c0/Paw-new-fruit-pngpng.png/revision/latest?cb=20230129125054";
+            img="images/paw.png";
         }
         else if(legendaryFruit==7){
             Fruit="Flame";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/3/35/FlareFlareFruit.png/revision/latest?cb=20201126221308";
+            img="images/flame.png";
         }
         else if(legendaryFruit==8){
             Fruit="Magma";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/8/8a/Magu-new-fruit-pngpng.png/revision/latest?cb=20230129125447";
+            img="images/magma.png";
         }
         else if(legendaryFruit==9){
             Fruit="Light";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/6/69/PikaPikaNewQuality.png/revision/latest?cb=20220706164626";
+            img="images/light.png";
         }
         else if(legendaryFruit==10){
             Fruit="Dark";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/e/e8/YamiYaminoMiEdit.png/revision/latest?cb=20221106153257";
+            img="images/dark.png";
         }
         else if(legendaryFruit==11){
             Fruit="Snow";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/d/d3/Yuki.png/revision/latest?cb=20221227130525";
+            img="images/snow.png";
         }
     }
     else if(rollChance<=9999&&rollChance>9900){
@@ -220,19 +220,19 @@ function roll(){
         percentage="(0.01%)";
         if(mythicalFruit==1){
             Fruit="Phoenix";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/1/18/Torirevision.png/revision/latest?cb=20221225102637";
+            img="images/phoeninx.png";
         }
         else if(mythicalFruit==2){
             Fruit="Dough";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Mochi_model_test.png/revision/latest?cb=20220531201714";
+            img="images/dough.png";
         }
         else if(mythicalFruit==3){
             Fruit="Operator";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Ope_Ope_no_mi.png/revision/latest?cb=20230622192745";
+            img="images/operator.png";
         }
         else if(mythicalFruit==4){
             Fruit="Venom";
-            img="https://static.wikia.nocookie.net/grand-piece-online/images/e/e2/Doku.png/revision/latest?cb=20230303205950";
+            img="images/venom.png";
         }
     
     }
@@ -242,7 +242,7 @@ document.body.innerHTML = '';
 document.write("<span style='position:absolute; left: 0;font-size:25px'>Current Fruit: "+savedFruit+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'>B$:"+money+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'<br><br>Sales Left: "+salesleft+"</span>");
-document.write("<button style='width:250px; height:55px;font-size:20px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px', onClick='sell()'>SELL FRUIT</button></br>");
+document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px;border-radius:10px', onClick='sell()'>SELL FRUIT</button></br>");
 document.write("<hr style='border:1px solid black'>Pity: "+count+"/50"); 
 count++;
 realcounter++;
@@ -271,7 +271,7 @@ savedFruit="N/A";
 document.write("<span style='position:absolute; left: 0;font-size:25px'>Current Fruit: "+savedFruit+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'>B$:"+money+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'<br><br>Sales Left: "+salesleft+"</span>");
-document.write("<button style='width:250px; height:55px;font-size:20px;', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px', onClick='sell()'>SELL FRUIT</button></br>");
+document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px;border-radius:10px', onClick='sell()'>SELL FRUIT</button></br>");
 document.write("<hr style='border:1px solid black'>Pity: "+count+"/50");    
 document.write("<br/> Fruit Sold! +"+"B$"+value);
 document.body.style.textAlign="center";
@@ -288,7 +288,7 @@ savedFruit="N/A";
 document.write("<span style='position:absolute; left: 0;font-size:25px'>Current Fruit: "+savedFruit+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'>B$:"+money+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'<br><br>Sales Left: "+salesleft+"</span>");
-document.write("<button style='width:250px; height:55px;font-size:20px;', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px', onClick='sell()'>SELL FRUIT</button></br>");
+document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px;border-radius:10px', onClick='sell()'>SELL FRUIT</button></br>");
 document.write("<hr style='border:1px solid black'>Pity: "+count+"/50");    
 document.write("<br/> You do not have a fruit to sell!");
 document.body.style.textAlign="center";
@@ -302,7 +302,7 @@ if(sellcounter>=20){
     document.write("<span style='position:absolute; left: 0;font-size:25px'>Current Fruit: "+savedFruit+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'>B$:"+money+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'<br><br>Sales Left: "+salesleft+"</span>");
-document.write("<button style='width:250px; height:55px;font-size:20px;', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px', onClick='sell()'>SELL FRUIT</button></br>");
+document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px;border-radius:10px', onClick='sell()'>SELL FRUIT</button></br>");
 document.write("<hr style='border:1px solid black'>Pity: "+count+"/50");    
 document.write("<br/> Oops, you have sold 20 times, you cannot sell anymore fruits...");
 document.body.style.textAlign="center";
