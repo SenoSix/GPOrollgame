@@ -1,6 +1,12 @@
+.HEADER{
+  border:solid; border-radius:10px;background-color:rgb(19, 56, 90); border-color:black;
+  margin-left:150px;margin-right:150px;
+}
+
 h1{ color:rgb(255, 255, 255); 
     text-align:center; 
-    border:solid; border-radius:100px;background-color:rgb(19, 56, 90); border-color:black}
+    border:solid; border-radius:10px;background-color:rgb(19, 56, 90); border-color:black
+}
     
     h2{color:rgb(255, 255, 255);}
     
@@ -32,14 +38,9 @@ h1{ color:rgb(255, 255, 255);
         border:solid;color:black;size:1px;
         border-radius:10px;
         margin-right:55px;
-        background-color:rgb(19, 56, 90); 
-        
+        background-color:rgb(19, 56, 90);    
       }
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
+
 
 ul{text-align:left;list-style-position: inside;color:white}
 p{
@@ -48,11 +49,12 @@ p{
 .container{
   text-align: center;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  width: 1250px;
+  left:22%;
 }
 
-.colleft{
-  margin-left: 270px;
-}
+
 .rules{
   text-align:left;
 }

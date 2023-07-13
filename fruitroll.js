@@ -1,6 +1,6 @@
 var count=1;
 var realcounter=0;
-var money=10000;
+var money=15000;
 var result;
 var value=0;
 var savedFruit="";
@@ -242,6 +242,7 @@ document.body.innerHTML = '';
 document.write("<span style='position:absolute; left: 0;font-size:25px'>Current Fruit: "+savedFruit+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'>B$:"+money+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'<br><br>Sales Left: "+salesleft+"</span>");
+document.write("<span style='position:absolute; left: 0;font-size:25px'<br><br>Score: "+realcounter+" spins"+"</span>");
 document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px;border-radius:10px', onClick='sell()'>SELL FRUIT</button></br>");
 document.write("<hr style='border:1px solid black'>Pity: "+count+"/50"); 
 count++;
@@ -256,7 +257,8 @@ document.body.style.backgroundSize="2000px";
 
 if(money<500){
     document.body.innerHTML='';
-    document.write("Game Over, You have lasted: "+realcounter+" Spins");
+    document.write("Game Over, You have lasted: "+realcounter+" Spins<br/>");
+    document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='location.reload()'>HOME</button>")
 }
 }
 console.log(money);
@@ -271,6 +273,7 @@ savedFruit="N/A";
 document.write("<span style='position:absolute; left: 0;font-size:25px'>Current Fruit: "+savedFruit+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'>B$:"+money+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'<br><br>Sales Left: "+salesleft+"</span>");
+document.write("<span style='position:absolute; left: 0;font-size:25px'<br><br>Score: "+realcounter+" spins"+"</span>");
 document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px;border-radius:10px', onClick='sell()'>SELL FRUIT</button></br>");
 document.write("<hr style='border:1px solid black'>Pity: "+count+"/50");    
 document.write("<br/> Fruit Sold! +"+"B$"+value);
@@ -288,6 +291,7 @@ savedFruit="N/A";
 document.write("<span style='position:absolute; left: 0;font-size:25px'>Current Fruit: "+savedFruit+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'>B$:"+money+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'<br><br>Sales Left: "+salesleft+"</span>");
+document.write("<span style='position:absolute; left: 0;font-size:25px'<br><br>Score: "+realcounter+" spins"+"</span>");
 document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px;border-radius:10px', onClick='sell()'>SELL FRUIT</button></br>");
 document.write("<hr style='border:1px solid black'>Pity: "+count+"/50");    
 document.write("<br/> You do not have a fruit to sell!");
@@ -302,6 +306,7 @@ if(sellcounter>=20){
     document.write("<span style='position:absolute; left: 0;font-size:25px'>Current Fruit: "+savedFruit+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'>B$:"+money+"</span>");
 document.write("<span style='position:absolute; right: 0;font-size:25px'<br><br>Sales Left: "+salesleft+"</span>");
+document.write("<span style='position:absolute; left: 0;font-size:25px'<br><br>Score: "+realcounter+" spins"+"</span>");
 document.write("<button style='width:250px; height:55px;font-size:20px; border-radius:10px', onClick='roll()'>ROLL AGAIN (B$500)</button>"+" "+"<button style='width:250px; height:55px;font-size:20px;border-radius:10px', onClick='sell()'>SELL FRUIT</button></br>");
 document.write("<hr style='border:1px solid black'>Pity: "+count+"/50");    
 document.write("<br/> Oops, you have sold 20 times, you cannot sell anymore fruits...");
