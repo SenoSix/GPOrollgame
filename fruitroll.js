@@ -43,7 +43,7 @@ function roll(){
             }
             if(legendaryFruit==3){
                 Fruit="Sand";
-                img="images/SunaBetterQuality.png";
+                img="images/sand.png";
             }
             else if(legendaryFruit==4){
                 Fruit="Ice";
