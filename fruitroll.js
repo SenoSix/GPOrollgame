@@ -31,7 +31,7 @@ function roll(){
         if(rollChance<=8000&&rollChance>0){
             color="yellow";
             count=1;
-            percentage=" 1% (pity = 80%)";
+            percentage=" 4% (pity = 80%)";
             value=5000;
             if(legendaryFruit==1){
                 Fruit="Gravity";
@@ -81,7 +81,7 @@ function roll(){
         if(rollChance<=10000&&rollChance>8000){
             color="red";
             count=1;
-            percentage=" 0.01% (pity=20%)";
+            percentage=" 1% (pity=20%)";
             value=7500;
             if(mythicalFruit==1){
                 Fruit="Phoenix";
@@ -127,7 +127,7 @@ function roll(){
     }
     else if(rollChance<=8500&&rollChance>6000){
         color="cyan";
-        percentage="(29%)";
+        percentage="(25%)";
         value=250;
         if(rareFruit==1){
             Fruit="Barrier";
@@ -167,7 +167,7 @@ function roll(){
         color="yellow";
         count=1;
         value=5000;
-        percentage="1%";
+        percentage="4%";
         if(legendaryFruit==1){
             Fruit="Gravity";
             img="image/zushi.png";
@@ -217,7 +217,7 @@ function roll(){
         color="red";
         count=1;
         value=10000;
-        percentage="(0.01%)";
+        percentage="(1%)";
         if(mythicalFruit==1){
             Fruit="Phoenix";
             img="images/phoeninx.png";
