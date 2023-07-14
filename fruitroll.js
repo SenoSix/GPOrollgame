@@ -39,7 +39,7 @@ function roll(){
             }
             else if(legendaryFruit==2){
                 Fruit="Quake";
-                img="images/guura.v3.png";
+                img="images/gura.v3.png";
             }
             if(legendaryFruit==3){
                 Fruit="Sand";
