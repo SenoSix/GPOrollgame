@@ -125,7 +125,7 @@ function roll(){
             img="images/heal.png";
         }
     }
-    else if(rollChance<=8900&&rollChance>6000){
+    else if(rollChance<=8500&&rollChance>6000){
         color="cyan";
         percentage="(29%)";
         value=250;
@@ -150,7 +150,7 @@ function roll(){
             img="images/mero.png";
         }
     }
-    else if(rollChance<=9900&&rollChance>8900){
+    else if(rollChance<=9500&&rollChance>8500){
         color="purple";
         percentage="(10%)";
         value=500;
@@ -163,7 +163,7 @@ function roll(){
             img="images/spring.png";
         }
     }
-    else if(rollChance<=9900&&rollChance>9900){
+    else if(rollChance<=9900&&rollChance>9500){
         color="yellow";
         count=1;
         value=5000;
@@ -213,7 +213,7 @@ function roll(){
             img="images/snow.png";
         }
     }
-    else if(rollChance<=9999&&rollChance>9900){
+    else if(rollChance<=10000&&rollChance>9900){
         color="red";
         count=1;
         value=10000;
