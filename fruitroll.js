@@ -35,7 +35,7 @@ function roll(){
             value=5000;
             if(legendaryFruit==1){
                 Fruit="Gravity";
-                img="images/zushi.png";
+                img="images/gravity.png";
             }
             else if(legendaryFruit==2){
                 Fruit="Quake";
@@ -170,7 +170,7 @@ function roll(){
         percentage="4%";
         if(legendaryFruit==1){
             Fruit="Gravity";
-            img="image/zushi.png";
+            img="image/gravity.png";
         }
         else if(legendaryFruit==2){
             Fruit="Quake";
@@ -248,7 +248,7 @@ document.write("<hr style='border:1px solid black'>Pity: "+count+"/50");
 count++;
 realcounter++;
 console.log(Fruit)
-document.write("<br />You Rolled...<span style='color: " + color + "'>" + Fruit + " " +percentage+"</span>!");
+document.write("<br />You Rolled...<span style='color: " + color + "'>" + Fruit + " " + +"</span>!");
 document.write("<br /><img src='" + img + "'/>")
 document.body.style.textAlign="center";
 document.body.style.fontSize="40";
