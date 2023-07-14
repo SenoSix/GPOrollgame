@@ -248,7 +248,7 @@ document.write("<hr style='border:1px solid black'>Pity: "+count+"/50");
 count++;
 realcounter++;
 console.log(Fruit)
-document.write("<br />You Rolled...<span style='color: " + color + "'>" + Fruit + " " + +"</span>!");
+document.write("<br />You Rolled...<span style='color: " + color + "'>" + Fruit +" "+ percentage +"</span>!");
 document.write("<br /><img src='" + img + "'/>")
 document.body.style.textAlign="center";
 document.body.style.fontSize="40";
